@@ -52,7 +52,7 @@ button {
 	transition: transform 80ms ease-in;
 }
 
-form {
+#formats {
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
@@ -106,8 +106,8 @@ input {
 
 .overlay {
 	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #00FDD5, #00A3FD, #005AFD);
-	background: linear-gradient(to right, #00FDD5, #00A3FD, #005AFD);
+	background: linear-gradient(to right, #00BEFD, #0083fd, #005AFD);
+	background: linear-gradient(to right, #00BEFD, #00A3FD, #005AFD);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
@@ -136,3 +136,28 @@ input {
 	right: 0;
 }
 
+#room_name
+{
+	width: 50%;
+}
+#output
+{
+	padding: 10px; width:50%;background: rgba(255,255,255,1);border-radius: 15px;
+}
+#add {
+background-color: #7F00FD;
+}
+#logoutbtn
+{
+	border-radius: 20px;
+	background-color: red;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	margin-right: 10px;
+	position: sticky;
+}

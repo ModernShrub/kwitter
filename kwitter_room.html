@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="overlay-container" style="text-align: right;">
+
+    <div class="overlay" style="text-align: right;">
+        <button onclick="logout();" id="logoutbtn"><span class="glyphicon glyphicon-log-out"></span> Logout</button>
+        <center>
+            <br>
+<h1 id="name"></h1>
+        <br><br><br><br><br><h3>Type in your room name:</h3> <br><br><br> <input type="text" placeholder="Room name" id="room_name">
+        <br><br><br>
+        <button id="add" onclick="addRoom();">Add Room</button>
+        <br><br><br>
+        <h3>Rooms</h3>
+        <div id="output"></div>
+    </center>
+    </div>
+</div>
+<script src="kwitter_room.js"></script>
+</body>
+</html>
